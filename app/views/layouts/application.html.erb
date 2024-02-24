@@ -9,15 +9,12 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar w/ text</a>
-      <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">My Lists <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">New List</a>
-      </li>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <span><a class="navbar-brand">Watch List</a></span>
+        <div class="flex">
+          <a href="#" style="text-decoration: none; color: #A9A9A9">My List</a>
+          <a href="#" style="text-decoration: none; color: #A9A9A9">New List</a>
+        </div>
     </nav>
   </head>
 
